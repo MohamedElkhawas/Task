@@ -1,0 +1,245 @@
+body{
+    padding-top: 70px;
+}
+
+/*Top header*/
+.Top-header{
+    background-color:#e5e5e5;
+    margin-top: -70px;
+    padding: 5 0 10 25px;
+}
+.Top-header p{ 
+    margin: 0px;
+}
+
+.left-content{
+    float: right;
+    padding: 0px;
+    margin: -40px 0 0 0px;
+}
+/*Main Navbar*/
+.navbar{
+    min-height: 68px;
+    background-color: white;
+}
+.navbar .navbar-nav .navbar-right ul li {
+    color: black;
+}
+
+/*Active Link */
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus{
+    background-color:darkorange;
+    opacity:.9;   
+}
+
+/*Drop Down Menu*/
+.dropdown-menu{
+    background-color:gray;
+    min-width: 200px;
+
+}
+/* Navbar Toggle */
+.navbar-toggle{
+    margin-top: 18px;
+}
+.navbar-right .dropdown-menu{
+    left: 0;
+    right: auto;
+}
+.dropdown-menu > li > a{
+    color:aliceblue;
+    padding: 6px 20px;
+    -webkit-transition:padding 0.5s ease;
+    -moz-transition:padding 0.5s ease;
+    -o-transition:padding 0.5s ease;
+    transition:padding 0.5s ease;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus{
+    background-color: darkorange;
+    color: aliceblue;
+    padding-left: 35px;
+
+}
+
+.dropdown-menu .divider{
+    background-color: darkorange;
+}
+
+/* Carousel */
+
+.carousel-indicators .active{
+    background-color: darkorange;
+}
+/* Slider */
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{
+    height: 600px;
+    width: 1400px;
+}
+.carousel-caption{
+    font-size: 40px;
+    float: left;
+}
+
+/* Start of Section Features */
+
+.features{
+    background-color: #EEE;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    max-width: 100%;
+}
+
+.Feature1{
+    margin: auto;
+}
+.Feature2{
+    margin: 0px 0px 0px 100px;
+}
+.Feature3{
+    margin: 0px 0px 0px 200px;
+}
+
+.img-rounded{
+    width: 375px;
+    height: 300px;
+}
+.overlay{
+    background-color: gray;
+    opacity: 0.5;
+    margin: -258px -112px 0px 42px;
+    width: 290px;
+    height: 210px;
+    text-align: center;
+}
+.caption{
+    margin: -70px 0px 0px 105px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+}
+.overlay2{
+    background-color: gray;
+    opacity: 0.5;
+    margin: -258px -117px 0px 139px;
+    width: 290px;
+    height: 210px;
+    text-align: center;
+}
+.caption2{
+    margin: -70px 0px 0px 133px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    width: 100%;
+}
+.overlay3{
+    background-color: gray;
+    opacity: 0.5;
+    margin: -258px -117px 0px 240px;
+    width: 290px;
+    height: 210px;
+    text-align: center;
+}
+.caption3{
+    margin: -70px 0px 0px 239px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    width: 100%;
+}
+
+/* End of Section Features */
+
+/* Start Section*/
+
+.right{
+    float: right;
+    
+}
+.left{
+    float: left;
+}
+/* End Section*/
+
+/* Start Section brand  */
+.brand{
+    background-color: #f3f3f3;
+}
+
+/* End Section */
+/* Start Section meta*/
+.right-meta{
+    float: right;
+}
+.left-meta{
+    float: left;
+}
+
+/* End Section */
+/* Start Section sol */
+.sol{
+    background-color: #2b2c2c;
+    height: 100px;
+}
+.sol strong{
+    color: white;
+    float: left;
+    font-weight: 600;
+    font-size: 35px;
+}
+.sol p{
+    color: white;
+    float: left;
+    margin: 50px 0 10px -260px;
+    font-size: 18px;
+}
+
+/* End Section */
+/* Start Section rates */
+.right-rates{
+    float: right;
+}
+.left-rate{
+    float: left;
+    margin: -363px 0 0 -88px;
+    color: white;
+    font-family: serif;
+    font-size: 17px;
+}
+/* End Section */
+/* Start Section Footer */
+.footer{
+    background:#111;
+    color: #AAA;
+    padding-top: 10px;
+    height: 50px;
+}
+
+.follow{
+    float: right;
+    font-weight: bold;
+    color: white;
+    margin: -18px 200px 0 25px;
+}
+.social{
+    float: right;
+    margin: -31px -125px 13px 0px;
+
+}
+.social img{
+    width: 20px;
+    
+}
+/* End Section Footer */
